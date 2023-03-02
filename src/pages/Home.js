@@ -189,6 +189,53 @@ const Home = () => {
         </div>
       </section>
 
+      <section className='famous-wrapper py-5 home-wrapper-2'>
+        <div className='container-xxl'>
+          <div className='row'>
+            <div className='col-3'>
+              <div className='famous-card position-relative'>
+                <img src='/images/famous-1.jpg' className='img-fluid' alt='famous'/>
+                <div className='famous-content position-absolute'>
+                <h5>Hospital Equipment</h5>
+                <h6>Manual Oxygen Device</h6>
+                <p> $199</p>
+                </div>
+              </div>
+            </div>
+            <div className='col-3'>
+              <div className='famous-card position-relative'>
+                <img src='/images/famous-2.jpg' className='img-fluid' alt='famous'/>
+                <div className='famous-content position-absolute'>
+                <h5>Hospital Equipment</h5>
+                <h6>Cara Portable Air Compressor</h6>
+                <p> $199</p>
+                </div>
+              </div>
+            </div>
+            <div className='col-3'>
+              <div className='famous-card position-relative'>
+                <img src='/images/famous-3.jpg' className='img-fluid' alt='famous'/>
+                <div className='famous-content position-absolute'>
+                <h5>Hospital Equipment</h5>
+                <h6>Surgical Latex Gloves</h6>
+                <p> $199</p>
+                </div>
+              </div>
+            </div>
+            <div className='col-3'>
+              <div className='famous-card position-relative'>
+                <img src='/images/famous-4.jpg' className='img-fluid' alt='famous'/>
+                <div className='famous-content position-absolute'>
+                <h5>Hospital Equipment</h5>
+                <h6>12-Ply Gauze Sponges</h6>
+                <p> $199</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className='special-wrapper py-5 home-wrapper-2'>
         <div className='container-xxl'>
           <div className='row'>
@@ -196,6 +243,7 @@ const Home = () => {
               <h3 className='section-heading'>Special Products</h3>
             </div>
             <div className='row'>
+              <SpecialProduct/>
               <SpecialProduct/>
               <SpecialProduct/>
               <SpecialProduct/>
