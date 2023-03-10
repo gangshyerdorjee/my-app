@@ -11,7 +11,7 @@ const BlogCard = () => {
                     <p className='date'>1 Jan, 2023</p>
                     <h5 className='title'>Coronavirus latest: at a glance</h5>
                     <p className='desc'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                    <Link to="/" className="button">Read More</Link>
+                    <Link to="/blog/:id" className="button">Read More</Link>
                 </div>
         </div>
   )
